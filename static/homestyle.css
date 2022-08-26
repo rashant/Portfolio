@@ -74,6 +74,9 @@ margin-top:10%;
 color:white;
 font-size:500%;
 font-family: "Consolas";
+animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
 .text h2{
