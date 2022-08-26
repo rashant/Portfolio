@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'homestyle.css' %}">
+    <script src="https://kit.fontawesome.com/c9525feebb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Home</title>
+
+</head>
+<body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<div class="container">
+    <div class="top">
+        <ul class="nav-menu">
+            <li class="homebtn"><a href="#home"><b>Home</b></a></li>
+            <li><a href="#about"><b>About</b></a></li>
+            <li><a href="#skills"><b>Skills</b></a></li>
+            <li><a href="#projects"><b>Projects</b></a></li>
+            <li><a href="#experience"><b>Experience</b></a></li>
+            <li><a href="#certifications"><b>Certifications</b></a></li>
+            <li><a href="#contact"><b>Contact Me</b></a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+    <div class="intro">
+            <div class="tag">
+                <div class="text">
+                    <h2>Hi There,</h2>
+                    <h1>I am Prashant</h1>
+                    <h3>Machine Learning Engineer</h3>
+                     <p>Well experienced in working on real-world problems,<br>and production of AI models with great accuracies.</p>
+                </div>
+
+        </div>
+
+        <div class="tag">
+            <div class="image"></div>
+        </div>
+    </div>
+        <div class="scroll">
+            <h3>Scroll Down</h3>
+            <i class="fa-solid fa-down-long fa-2x fa-bounce"></i>
+        </div>
+</section>
+
+    <section id="about">
+        <div class="aboutinfo">
+            <div class="abouttag">
+                <h1>About Me<i class="fa-solid fa-user-tie"></i></h1>
+            </div>
+
+        <div class="aboutpoints">
+            <h2>I AM A MACHINE LEARNING ENGINEER WHO !</h2>
+            <ul class="points">
+                <li><i class="fa-solid fa-hand-fist"></i>loves to solve real word problems in diverse domains of AI</li>
+                <li><i class="fa-solid fa-camera"></i>is currently working in the field of computer vision</li>
+                <li><i class="fa-solid fa-photo-film"></i>plays with all kinds of data - images, videos, audio etc</li>
+                <li><i class="fa-brands fa-android"></i>having Experience in end-to-end development and deployment of AI models</li>
+                <li><i class="fa-solid fa-person-rays"></i>all the end of the day, aims to <b>make the data shine!</b></li>
+
+            </ul>
+        </div>
+        </div>
+</section>
+
+    <section id="skills">
+        <div class="skillgallery js-flickity" data-flickity-options='{ "wrapAround": true ,"autoPlay": true, "pageDots": false}'>
+
+            <div class="skill">
+                <div class="skilltitle">
+                    <h1>Technologies</h1>
+                </div>
+                <div class="skillicons">
+                    <ul class="skillnav">
+                    <li><i class="devicon-tensorflow-original colored"></i></li>
+                    <li><i class="devicon-android-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-flutter-plain colored"></i></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skilltitle">
+                    <h1>Programming Languages</h1>
+                </div>
+                <div class="skillicons">
+                    <ul class="skillnav">
+                    <li><i class="devicon-python-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-java-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-c-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-mysql-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                    <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skilltitle">
+                    <h1>Hobbies</h1>
+                </div>
+                <div class="skillicons">
+                    <ul class="skillnav">
+                    <li><img src="static/meditation.png"></li>
+                    <li><img id="draw" src="static/drawing.png"></li>
+                </ul>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skilltitle">
+                    <h1>Strengths</h1>
+                </div>
+                <div class="skillicons">
+                    <ul class="skillnav">
+                    <li><img src="static/combinedlearning.png"> </li>
+                    <li><img src="static/criticalthink.png"> </li>
+                    <li><img src="static/workoholic.png"> </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="skill">
+                <div class="skilltitle">
+                    <h1>Spoken Languages</h1>
+                </div>
+                <div class="skillicons">
+                    <ul class="skillnav">
+                    <li><img src="static/english.png"><figcaption>English (Professional)</figcaption></li>
+                    <li><img src="static/telugu.png"><figcaption>Telugu (Communication)</figcaption></li>
+                    <li><img src="static/hinid.png"><figcaption>Hindi (Communication)</figcaption></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+</section>
+
+    <section id="projects">
+<div class="projectgallery js-flickity"
+  data-flickity-options='{ "wrapAround": true ,"autoPlay": true, "pageDots": false}'>
+
+    <!--Project 1 -->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Action Recognition</h1></div>
+            <div class="projectdesc"><p>The model is trained on neural networks using the mediapipe coordinates for each action. The model can recognise 7 actions. The dataset is created by capturing the mediapipe coordinates of pose and face landmarks. Each action is trained for 30 videos and each video is of 30 frames. All the captured coordinates are saved in a numpy file. The model has a quite good accuracy even with this small dataset.
+
+The second version of this model is trained by capturing the coordinates and saving them in a csv file. Compared to the previous version the results and predictions are quite accurate. In this rather fixing the number of frames. I have considered the complete one single cycle of each action in various poses. This version can recognise 6 actions mainly.</p></div>
+        </div>
+    </div>
+
+    <!--Project 2-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>AI Gym Traniner</h1></div>
+            <div class="projectdesc"><p>The model uses mediapipe pose detections to track the pose of the body. The model calculates angle between various joints to track the exercise. The model will have a live counter and the stage.</p></div>
+        </div>
+    </div>
+
+    <!--Project 3-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Comment Toxicity Detector</h1></div>
+            <div class="projectdesc"><p>The model is build using embedding and bidirectional LSTM layer with 3 fully connected layers. For the training I have used the Jigsaw Toxic Comment Classification Challenge dataset. The model used text vectorization process for text preprocessing. Even though the model is trained for only one epoch the accuracy results are pretty good. The model is run on gradio interface where we can input the comment and the toxicity level detection will be seen as output.</p></div>
+        </div>
+    </div>
+
+    <!--Project 4-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Speech Emotion Recognition</h1></div>
+            <div class="projectdesc"><p>Emotions are tremendously vital in human mental health. It is a means of communicating one's point of view or emotional condition to others. Speech Emotion Recognition (SER) is the extraction of the speaker's emotional state from his or her speech signal. In this study, I used TESS Toronto emotion speech dataset sample data. It primarily encompasses seven emotions: angry, disgusted, fearful, pleased, neutral, pleasant surprise, and sad. I created an LSTM model with four hidden layers for classification. The model has a validation accuracy of 82.14%, which appears to be satisfactory. Because a couple of the speech recordings are of low quality and some are unclear, I believe the model is doing better. The accuracy may be improved by enhancing the dataset and pre-processing the audio data.</p></div>
+        </div>
+    </div>
+
+    <!--Project 5-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Image Captioning System</h1></div>
+            <div class="projectdesc"><p>The model is trained on flickr 8k dataset. The model follows the merging architecture and it is an LSTM model. The model has a BLEU score of 54.65%. It uses the pretrained VGG16 model for image feature extraction. The BLEU score can be increased by training the model for longer epochs and increasing the dataset, like using flickr 30k.</p></div>
+        </div>
+    </div>
+
+    <!--Project 6-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Face Recognition</h1></div>
+            <div class="projectdesc"><p>The project impelements the basic working of face recognition. It compares the faces of the user with faces present in the database directory and matches them. The model uses opencv for getting the live stream of webcam and uses face locations and encodings for comparing the faces</p></div>
+        </div>
+    </div>
+
+    <!--Project 7-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Virtual Assistant</h1></div>
+            <div class="projectdesc"><p>A virtual Assistant which helps in our daily tasks and communication which is friendly and useful. It uses ml model which is trained on various sentences so that the model can understand the user's command, it uses NLP techniques like tokenization, lemmatization, stemming and word vectorization to understand the human language. it predicts the correct intent for the commands and maps them to the tasks accordingly. </p></div>
+        </div>
+    </div>
+
+    <!--Project 8-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>K-Drama Recommendation System</h1></div>
+            <div class="projectdesc"><p>Data Preperation: The dataset is created with the help of webscrapping techniques using beautifulsoup from rakuten viki and mydramalist websites. The dataset contains a total of 677 dramas. The dataset contains the title and the description of the drama.
+
+Recommendation System: For this model I have used content based recommendation system approach. I have used TfidfVectorizer for data preprocessing and sigmoid kernal to find the similarity between the dramas. The output is an similarity matrix. The GUI is made using the gradio package, the user can give the input title of the drama he recently seen and number of recommendations he want. The output will be the drama names with the similarity scores sorted in high to low.</p></div>
+        </div>
+    </div>
+
+    <!--Project 9-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Wine Quality Prediction</h1></div>
+            <div class="projectdesc"><p>In this project I have used random forest classifier for predicting the quality of wine on the basis of the rating. It classifies as either good if rating is greater than 7 or a bad wine. It uses data preprocessing techniques like standard scalar for scaling and dropping the unwanted columns. The model has achieved an accuracy of 92.81%.</p></div>
+        </div>
+    </div>
+
+    <!--Project 9-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Stock Market Bot Model</h1></div>
+            <div class="projectdesc"><p>In this project I have implemented a Reinforcement Learning Based Market Trading Model, where I have created a Trading environment using OpenAI Gym AnyTrading. I have used historical from yahoo finance price data, then I have trained and evaluate our model using Reinforcement Learning Agents and Gym Environment. It is mainly trained on A2C model.</p></div>
+        </div>
+    </div>
+
+    <!--Project 10-->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/project1.png">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle"><h1>Lunar Lander Simulator Model</h1></div>
+            <div class="projectdesc"><p>LUNAR Lander is another interesting problem in Reinforcement Learning. The main goal is to land the LUNAR at the appropriate location. The agent is trained on ACER model for 500000 time steps and have a good performance.</p></div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+    <section id="experience">
+<div class="projectgallery js-flickity"
+  data-flickity-options='{ "wrapAround": true ,"autoPlay": true, "pageDots": false}'>
+
+    <!--Eperience 1 -->
+    <div class="project">
+        <div class="projectimage">
+            <img src="">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle">
+                <h1>Junior Machine Learning Engineer</h1>
+                <h3>Omdena</h3>
+            </div>
+            <div class="projectdesc"><p>Currently working as Junior Machine Learning Engineer( Collaborator ) at Omdena for the project named Digitalizing Dzongkha Documents. My contribution is designing neural networks for the translation and OCR processes.</p></div>
+        </div>
+    </div>
+
+    <!--Eperience 2 -->
+    <div class="project">
+        <div class="projectimage">
+            <img src="static/radius.jpeg">
+        </div>
+        <div class="projectdescription">
+            <div class="projecttitle">
+                <h1>AI Reasearch Intern</h1>
+                <h3>Radius Globe</h3>
+            </div>
+            <div class="projectdesc"><p>Radius Globe is a medium size start-up. I have worked as an AI Research Intern, during this period I have worked with the R&D department and helped in reasearch topic of auto controlling the video features like brightness, contrast etc according to the user's age and visual medical history. I have built deep learning models for making predictions and computer vision algorithms to extract the required inputs like pupil size, color etc.</p></div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+    <section id="certifications">
+        <div class="certificationsgallery js-flickity"
+  data-flickity-options='{ "wrapAround": true ,"autoPlay": true, "pageDots": false}'>
+
+    <!--Certificate 1 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Python Programmer Certification Beginner_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 2 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/AI PRIMER CERTIFICATION_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 4 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Data Science Foundation Certification_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 3 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Coursera Python 101_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 5 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Hackerrank python basics certification_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 6 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/hackerrank sql basics ceritification_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 7 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Machine Learning Training - Certificate of Completion_pages-to-jpg-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 8 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Python automation_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 9 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Python for beginers_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 10 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Python for Machine Learning_page-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 1 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/UXPLORE E-SUMMIT'22_pages-to-jpg-0001.jpg">
+        </div>
+    </div>
+
+    <!--Certificate 1 -->
+    <div class="certificate">
+        <div class="certificateimage">
+            <img src="static/certificates/Python Programmer Certification Beginner_page-0001.jpg">
+        </div>
+    </div>
+
+</div>
+    </section>
+
+    <section id="contact">
+    <div class="contactdetails">
+        <ul class="contactnav">
+            <li>Mail me at <i class="fa-solid fa-envelope"></i><span>prashantkalepu@gmail.com</span></li>
+            <li>Call me on <i class="fa-solid fa-phone"><span>+91 - 9494691290</span></i></li>
+            <li>Connect with me on...<a href="https://www.linkedin.com/in/prashant-kalepu"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li>Have a look at my...<a href="https://www.github.com/rashant"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </div>
+</section>
+</div>
+
+</body>
+</html>
